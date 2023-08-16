@@ -1,0 +1,34 @@
+{
+    "name": "ramphp/logger",
+    "description": "VIKSHRO's RAMPHP Logger Packages",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "proprietary",
+    "source": {
+        "url": "https://vikshro.in/RAMPHP",
+        "type": "website",
+        "reference": "VIKSHRO"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ramphp\\Logger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "VIKSHRO",
+            "email": "ramphp@vikshro.in"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0",
+        "monolog/monolog": "^2.9"
+    },
+    "config": {
+        "platform": {
+            "php": "8.0"
+        }
+    }
+}
